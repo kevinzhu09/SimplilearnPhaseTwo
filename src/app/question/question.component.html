@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="row col justify-content-center">
+    <h1>Welcome to KBC.</h1>
+    </div>
+    <div class="row col justify-content-center">
+    <h2>There is 0 prize money for winning.</h2>
+    </div>
+    <div class="row col justify-content-center">
+    <h3>There are 10 Javascript Questions. You need a 7/10 to get the interview.</h3>
+    </div>
+    
+    <div class="row col justify-content-center">
+    <input class="btn btn-success mt-2" type="button" value="Load Questions (or refresh/restart)"
+    (click)="loadQuestions()"/>
+    </div>
+
+    
+    <hr>
+
+
+
+    <form [formGroup]="questionRef" *ngIf="questionInfo" (ngSubmit)="submit()">
+
+            <div>
+                <h3>{{questionInfo[currentIndex].ques}}</h3>
+                <div class="form-check">
+                <input formControlName="answer" class="form-check-input" type="radio" id="answer1" name="answer" value="1">
+                <label class="form-check-label" for="answer1">{{questionInfo[currentIndex].answer1}}</label>
+                </div>
+
+                <div class="form-check">
+                    <input formControlName="answer" class="form-check-input" type="radio" id="answer2" name="answer" value="2">
+                    <label class="form-check-label" for="answer2">{{questionInfo[currentIndex].answer2}}</label>
+                    </div>
+
+                <div class="form-check">
+                <input formControlName="answer" class="form-check-input" type="radio" id="answer3" name="answer" value="3">
+                <label class="form-check-label" for="answer3">{{questionInfo[currentIndex].answer3}}</label>
+                </div>
+
+                <div class="form-check">
+                    <input formControlName="answer" class="form-check-input" type="radio" id="answer4" name="answer" value="4">
+                    <label class="form-check-label" for="answer4">{{questionInfo[currentIndex].answer4}}</label>
+                    </div>
+            </div>
+
+            <input class="btn btn-success mt-2" type="submit" value="Submit and move to Next Question"/>
+        </form>
+
+<div *ngIf=""></div>
+
+</div>

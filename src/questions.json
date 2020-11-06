@@ -1,0 +1,42 @@
+{"questions":[
+{"ques":"Q 1 - Which of the following is true about variable naming conventions in JavaScript?", "answer1":"A - You should not use any of the JavaScript reserved keyword as variable name.",
+"answer2":"B - JavaScript variable names should not start with a numeral (0-9).","answer3":"C - Both of the above.",
+"answer4":"D - None of the above.","correct":3},
+
+{"ques":"Q 2 - How can you get the total number of arguments passed to a function?", "answer1":"A - Using args.length property",
+"answer2":"B - Using arguments.length property","answer3":"C - Both of the above.",
+"answer4":"D - None of the above.","correct":2},
+
+{"ques":"Q 3 - Which built-in method returns the length of the string?", "answer1":"A - length()",
+"answer2":"B - size()","answer3":"C - index()",
+"answer4":"D - None of the above.","correct":1},
+
+{"ques":"Q 4 - Which of the following code creates an object?", "answer1":"A - var book = Object();",
+"answer2":"B - var book = new Object();","answer3":"C - var book = new OFJECT();",
+"answer4":"D - var book = new Book();","correct":2},
+
+{"ques":"Q 5 - Which of the following function of String object returns a number indicating the Unicode value of the character at the given index?", "answer1":"A - charAt()",
+"answer2":"B - charCodeAt()","answer3":"C - concat()",
+"answer4":"D - indexOf()","correct":2},
+
+{"ques":"Q 6 - Which of the following function of String object returns the characters in a string between two indexes into the string?", "answer1":"A - slice()",
+"answer2":"B - split()","answer3":"C - substr()",
+"answer4":"D - substring()","correct":4},
+
+{"ques":"Q 7 - Which of the following function of String object returns the calling string value converted to lower case?", "answer1":"A - toLocaleLowerCase()",
+"answer2":"B - toLowerCase()","answer3":"C - toString()",
+"answer4":"D - substring()","correct":2},
+
+{"ques":"Q 8 - Which of the following function of String object causes a string to be italic, as if it were in an <i> tag?", "answer1":"A - fixed()",
+"answer2":"B - fontcolor()","answer3":"C - fontsize()",
+"answer4":"D - italics()","correct":4},
+
+{"ques":"Q 9 - Which of the following function of Array object joins all elements of an array into a string?", "answer1":"A - concat()",
+"answer2":"B - join()","answer3":"C - pop()",
+"answer4":"D - map()","correct":2},
+
+{"ques":"Q 10 - Which of the following function of Array object applies a function simultaneously against two values of the array (from right-to-left) as to reduce it to a single value?", "answer1":"A - pop()",
+"answer2":"B - push()","answer3":"C - reduce()",
+"answer4":"D - reduceRight()","correct":4}
+	
+]}
